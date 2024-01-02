@@ -1,0 +1,50 @@
+.loaderIcon .spin.FaIcons {
+    margin-right: 7px;
+    top: 2px;
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    from {
+        transform: scale(1) rotate(0deg);
+    }
+
+    to {
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+
+.box{
+    border: 1px solid black;
+    height:50px;
+    width: 50px;
+    text-align: center;
+    padding-top: 30%;
+    color:#000000
+}
+
+
+.box:hover{
+    border-color:  #00000060;
+    color:#00000060;
+    cursor: pointer;
+}
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.cursorPointer:hover{
+    cursor: pointer;
+    color: #00000080;
+}
