@@ -84,7 +84,6 @@ const App = () => {
           <Checkbox style={{cursor:"pointer"}} disabled checked={selectedValues.includes(obj.value)}/>
           </Col>
           <Col span={2} offset={1}>
-<Image src={obj.test}/>
           </Col>
           <Col span={2} offset={1}>
           {obj.label}
