@@ -83,7 +83,8 @@ const App = () => {
         options={data}
         showSearch={true}
         filterOption={(input, option) => {
-          return option?.label?.toLowerCase().indexOf(input.toLowerCase()) >= 0;
+          const label:any=option?.label
+          return label.toLowerCase().indexOf(input.toLowerCase()) >= 0;
         }}
         optionRender={(obj) => {
           const tempData = obj.data.value;
